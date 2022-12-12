@@ -5,25 +5,6 @@ import { Button, MenuItem, Select, TextField } from "@mui/material";
 
 import { API } from 'aws-amplify';
 
-// function App() {
-//   const [greeting, setGreeting] = useState(null);
-//   async function fetchGreeting(){
-//     const apiData = await API.get('translateapi', '/translate')
-//     setGreeting(apiData.message)
-//   }
-//   useEffect(() => {
-//     fetchGreeting()
-//   }, [])
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <h1>{greeting}</h1>
-//       </header>
-//     </div>
-//   );
-// }
-
 function App() {
   const [inputString, setInputString] = useState();
   const [outputString, setOutputString] = useState();
