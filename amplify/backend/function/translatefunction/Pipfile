@@ -13,4 +13,4 @@ aws_wsgi="*"
 requests="*"
 
 [requires]
-python_version = "*"
+python_version = "3.8"
